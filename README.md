@@ -38,29 +38,29 @@ Regression Results of the China-Adapted Three-Factor Model:
 Pre-Pandemic Regression Results:
 ---------------------------------
 Intercept: 0.0276 (p-value: 0.0000)
-MKT: 0.9890 (p-value: 1.0008)
-WSMB: 0.5696 (p-value: 0.5920)
+MKT: 0.9889 (p-value: 1.0007)
+WSMB: 0.5690 (p-value: 0.5914)
 WHML: -0.2608 (p-value: -0.2422)
-R-squared: 0.2769
-F-statistic: 16098.9814 (p-value: 0.0000)
+R-squared: 0.2795
+F-statistic: 16175.9667 (p-value: 0.0000)
 
 Mid-Pandemic Regression Results:
 ---------------------------------
-Intercept: 0.0228 (p-value: 0.0000)
-MKT: 0.9863 (p-value: 0.9942)
-WSMB: 0.5541 (p-value: 0.5631)
-WHML: -0.1836 (p-value: -0.1752)
-R-squared: 0.1714
-F-statistic: 27419.3489 (p-value: 0.0000)
+Intercept: 0.0227 (p-value: 0.0000)
+MKT: 0.9867 (p-value: 0.9946)
+WSMB: 0.5527 (p-value: 0.5618)
+WHML: -0.1846 (p-value: -0.1761)
+R-squared: 0.1730
+F-statistic: 27454.2447 (p-value: 0.0000)
 
 Post-Pandemic Regression Results:
 ---------------------------------
-Intercept: 0.0212 (p-value: 0.0000)
-MKT: 1.0582 (p-value: 1.0668)
-WSMB: 0.4887 (p-value: 0.4981)
-WHML: -0.1917 (p-value: -0.1815)
-R-squared: 0.2967
-F-statistic: 39141.8123 (p-value: 0.0000)
+Intercept: 0.0211 (p-value: 0.0000)
+MKT: 1.0566 (p-value: 1.0651)
+WSMB: 0.4893 (p-value: 0.4987)
+WHML: -0.1913 (p-value: -0.1811)
+R-squared: 0.2980
+F-statistic: 39236.9104 (p-value: 0.0000)
 
 1、In the three-factor model, for all three periods (pre-pandemic, mid-pandemic, and post-pandemic), 
  the three factors do not appear to have a statistically significant impact on stock market returns.
@@ -79,33 +79,33 @@ value premium is not significant.
 Regression Results of the China-Adapted Four-Factor Model (CH-4 of Liu 2019):
 Pre-Pandemic Four-Factor Regression Results (4):
 -----------------------------------------------
-Intercept: 0.0270 (p-value: 0.0000)
-MKT: 0.9989 (p-value: 1.0136)
-WHML: -0.1829 (p-value: -0.1597)
-WSMB_new: 0.5667 (p-value: 0.5996)
-WPMO: -0.0156 (p-value: 0.0103)
-R-squared: 0.2740
-F-statistic: 9451.4790 (p-value: 0.0000)
+Intercept: 0.0271 (p-value: 0.0000)
+MKT: 0.9996 (p-value: 1.0143)
+WHML: -0.1851 (p-value: -0.1620)
+WSMB_new: 0.5650 (p-value: 0.5978)
+WPMO: -0.0105 (p-value: 0.0154)
+R-squared: 0.2773
+F-statistic: 9514.9747 (p-value: 0.0000)
 
 Mid-Pandemic Four-Factor Regression Results (4):
 -----------------------------------------------
-Intercept: 0.0213 (p-value: 0.0000)
-MKT: 0.9862 (p-value: 0.9941)
-WHML: -0.1208 (p-value: -0.1124)
-WSMB_new: 0.5993 (p-value: 0.6090)
-WPMO: -0.0559 (p-value: -0.0440)
-R-squared: 0.1719
-F-statistic: 20635.0242 (p-value: 0.0000)
+Intercept: 0.0215 (p-value: 0.0000)
+MKT: 0.9859 (p-value: 0.9938)
+WHML: -0.1202 (p-value: -0.1119)
+WSMB_new: 0.5991 (p-value: 0.6089)
+WPMO: -0.0518 (p-value: -0.0401)
+R-squared: 0.1735
+F-statistic: 20653.4530 (p-value: 0.0000)
 
 Post-Pandemic Four-Factor Regression Results (4):
 ------------------------------------------------
 Intercept: 0.0210 (p-value: 0.0000)
-MKT: 1.0526 (p-value: 1.0613)
-WHML: -0.1033 (p-value: -0.0924)
-WSMB_new: 0.5392 (p-value: 0.5495)
-WPMO: -0.0082 (p-value: 0.0043)
-R-squared: 0.2982
-F-statistic: 29570.5880 (p-value: 0.0000)
+MKT: 1.0515 (p-value: 1.0602)
+WHML: -0.1029 (p-value: -0.0920)
+WSMB_new: 0.5391 (p-value: 0.5494)
+WPMO: -0.0114 (p-value: 0.0012)
+R-squared: 0.2996
+F-statistic: 29641.8361 (p-value: 0.0000)
 
 The explanatory power of the four-factor model is similar to that of the three-factor model.
 Prior to the pandemic, the stock market was relatively stable, allowing the factor model 
@@ -116,11 +116,77 @@ exhibited increased volatility during the pandemic, influenced by macroeconomic 
 and industry changes. After the pandemic, the stock market's stability was relatively restored, 
 leading to an improvement in the model's explanatory power.
 
-The coefficient of the market factor changed relatively little, remaining close to 1 in all three periods. 
+The coefficient of the market factor changed relatively little, remaining close to 1 
+in all three periods. 
 The coefficient of the value factor (WHML) was consistently negative across all periods, 
 indicating that value stocks underperformed during the pre-pandemic, mid-pandemic, 
 and post-pandemic periods. The size factor (WSMB_new) was positive in all three periods, 
 suggesting that small-cap stocks outperformed large-cap stocks throughout. 
-The effect of the turnover factor (WPMO) increased during the pandemic and approached significance, 
-indicating that during periods of higher market uncertainty, investor sentiment became more closely 
-linked to stock price volatility.
+The turnover factor (WPMO) performed well and remained significant before, during, 
+and after the pandemic. This suggests that in the A-share market, where retail investors dominate, 
+stock prices are significantly influenced by investor sentiment. Particularly during periods of 
+higher market uncertainty, the relationship between investor sentiment and stock price volatility 
+becomes even more pronounced.
+
+PCA result：
+------------------------------------------------
+pca1 always represents market risk, with a correlation coefficient over 99% for each subsets. 
+pca2's negative correlation with SMB factor magnified during and after pandemic.
+pc3 has a negative correlation with SMB factor for all periods, and 
+has a positive correlation with HML before and after pandemic with a coefficient 
+over 0.24. However, during pandemic, pca3's correlation with HML is poor,
+showing the market's abnormality during pandemic.
+
+before pandamic: 
+          Mkt            SMB           HML
+pca1     0.9961         0.5555       -0.2040  
+pca2    -0.0401        -0.0121       -0.1136 
+pca3     0.0406        -0.5473        0.4558 
+
+during pandemic:
+          Mkt            SMB           HML
+pca1     0.9904         0.0009       -0.2720 
+pca2    -0.0452        -0.2602        0.0097 
+pca3     0.0648        -0.6218       -0.0999 
+
+after pandemic:
+           Mkt            SMB           HML
+pca1     0.9938         0.2419       -0.4588 
+pca2    -0.0447        -0.4147        0.1737 
+pca3     0.0453        -0.3787        0.2417 
+
+Regression Outcome: 
+Portfolios with different turnover sign are exposed to different amount of certain
+risks, which cannot be explained by SMB and HML factors. Expecially for
+Factor2, which has negative coefficients on stocks with low and middle
+abmormal turnover rate, but positice coefficients on stocks with high abnormal turnover rate.
+In addition, Factor 3 has positive coeffients on stocks with middle
+abonormal turnover rate, but not on their low and high abnormao turnover rate counterparts.
+Therefore, turnover rate effect is considered sort of systematic risk, such that CH4 model 
+explains more information of Chinese stock market than CH3 model.
+
+top three PCA factors loadings(before pandemic)
+  Portfolio    Factor1    Factor2    Factor3
+----------------------------------------
+   P            0.53          -0.64           -0.56 
+   M            0.50          -0.29            0.81 
+   O            0.68           0.71           -0.16 
+
+top three PCA factors loadings(during pandemic)
+  Portfolio    Factor1    Factor2    Factor3
+----------------------------------------
+   P            0.53          -0.62           -0.59 
+   M            0.56          -0.27            0.79 
+   O            0.64           0.74           -0.20 
+
+top three PCA factors loadings(after pandemic)
+  Portfolio    Factor1    Factor2    Factor3
+----------------------------------------
+   P            0.55          -0.67           -0.49 
+   M            0.50          -0.21            0.84 
+   O            0.67           0.71           -0.22 
+
+
+
+
+
