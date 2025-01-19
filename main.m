@@ -111,10 +111,8 @@ ep_port = rowfun(@ep_bucket, merged_data1(:, {'ep_ratio_ttm', 'ep30', 'ep70'}), 
 merged_data1.ep_port = cell2mat(ep_port);
 
 %%
-% skipped merging back with monthly records?
-
 % Keep only records that meet the criteria, drop missing observations
-% delete records with market_cap <= 0?
+% delete records with market_cap <= 0
 x=char(0); 
 disp(size(merged_data1));
 merged_data2= merged_data1((merged_data1.lme>0)& (merged_data1.market_cap>0) & (merged_data1.ep_ratio_ttm>0) & ~(merged_data1.szport==x)& ~(merged_data1.ep_port==x)...
@@ -127,7 +125,7 @@ disp(size(merged_data2));
 % Create group of portfolios
 [G,date,szport, ep_port]=findgroups(merged_data2.date,merged_data2.szport,merged_data2.ep_port);
 
-% weighting by lme?
+% weighting by lme
 vwret=splitapply(@wavg,merged_data2(:,{'returns','lme'}),G);
 
 % Create labels for the portfolios
