@@ -7,7 +7,7 @@ The COVID-19 pandemic has had a tremendous impact on China's production and cons
 
 We collected the necessary data before, during and after the pandemic, defining January 23, 2020, and earlier as the pre-pandemic period, and after January 9, 2023, as the post-pandemic period. We selected weekly data for analysis. 
 
-Based on Liu (2019)'s practice of removing shell value from the Chinese market, we excluded the smallest 30% of stocks by market capitalization, as well as those with fewer than 6 months listed or fewer than 120 trading records in the past year/less than 15 trading records in the past month.
+Based on Liu (2019)'s practice of removing shell value from the Chinese market, we excluded the smallest 30% of stocks by market capitalization, as well as those with fewer than 6 months listed or fewer than 120 trading records in the past year/less than 15 trading records in the past month. However, as we are dealing with weekly data, we decided to eliminate trading records with fewer than 120/5 = 24 trading records in the past year.
 
 Additionally, based on the characteristics of the Chinese market, we used the reciprocal of the Price-to-Earnings (PE) ratio, known as the Earnings-to-Price (EP) ratio, to replace the Book-to-Market (BM) ratio, thus replicating the China-specific treatment.
 
