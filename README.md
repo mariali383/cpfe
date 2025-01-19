@@ -95,7 +95,7 @@ WHML: -0.1202 (p-value: -0.1119)
 WSMB_new: 0.5991 (p-value: 0.6089)
 WPMO: -0.0518 (p-value: -0.0401)
 R-squared: 0.1735
-F-statistic: 20653.4530 (p-value: 0.0000)
+F-statistic: 20653.4048 (p-value: 0.0000)
 
 Post-Pandemic Four-Factor Regression Results (4):
 ------------------------------------------------
@@ -105,7 +105,7 @@ WHML: -0.1029 (p-value: -0.0920)
 WSMB_new: 0.5391 (p-value: 0.5494)
 WPMO: -0.0114 (p-value: 0.0012)
 R-squared: 0.2996
-F-statistic: 29641.8361 (p-value: 0.0000)
+F-statistic: 29641.8156 (p-value: 0.0000)
 
 The explanatory power of the four-factor model is similar to that of the three-factor model.
 Prior to the pandemic, the stock market was relatively stable, allowing the factor model 
@@ -134,7 +134,7 @@ pca1 always represents market risk, with a correlation coefficient over 99% for 
 pca2's negative correlation with SMB factor magnified during and after pandemic.
 pc3 has a negative correlation with SMB factor for all periods, and 
 has a positive correlation with HML before and after pandemic with a coefficient 
-over 0.24. However, during pandemic, pca3's correlation with HML is poor,
+over 0.22. However, during pandemic, pca3's correlation with HML is poor,
 showing the market's abnormality during pandemic.
 
 before pandamic: 
@@ -146,14 +146,14 @@ pca3     0.0406        -0.5473        0.4558
 during pandemic:
           Mkt            SMB           HML
 pca1     0.9904         0.0009       -0.2720 
-pca2    -0.0452        -0.2602        0.0097 
-pca3     0.0648        -0.6218       -0.0999 
+pca2    -0.0452        -0.2600        0.0097 
+pca3     0.0648        -0.6219       -0.0999 
 
 after pandemic:
            Mkt            SMB           HML
 pca1     0.9938         0.2419       -0.4588 
-pca2    -0.0447        -0.4147        0.1737 
-pca3     0.0453        -0.3787        0.2417 
+pca2    -0.0473        -0.4155        0.1712
+pca3     0.0422        -0.3404        0.2227
 
 Regression Outcome: 
 Portfolios with different turnover sign are exposed to different amount of certain
